@@ -19,7 +19,8 @@ Introducing my new Chrome extension:
 
 # How to install:
 
-Open the extension manager (chrome://extensions/)
-Enable the "Developer mode"
-Click on the "Load unpacked" button and select this project folder
-Have fun :)
+1. Open the extension manager (chrome://extensions/)
+2. Enable the "Developer mode"
+3. Click on the "Load unpacked" button and select this project folder
+4. Have fun :)
+
