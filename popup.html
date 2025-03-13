@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Response Settings</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            width: 280px;
+            padding: 15px;
+            background: #f9f9f9;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #0073b1;
+        }
+
+        .container {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            background: #f0f0f0;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        input {
+            flex: 1;
+            border: none;
+            padding: 8px;
+            background: transparent;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .toggle-password {
+            cursor: pointer;
+            padding: 5px;
+            color: #0073b1;
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background: #fff;
+            outline: none;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #0073b1;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #005582;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .footer a {
+            color: #0073b1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>AI Response Settings</h2>
+
+    <div class="container">
+        <label for="apiKey">OpenAI API Key:</label>
+        <div class="input-group">
+            <input type="password" id="apiKey" placeholder="Enter API Key">
+            <span class="toggle-password">👁️</span>
+        </div>
+
+        <label for="modelSelect">Select ChatGPT Model:</label>
+        <select id="modelSelect">
+            <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+            <option value="gpt-4">GPT-4</option>
+            <option value="gpt-4o" selected>GPT-4o</option>
+            <option value="gpt-4-turbo">GPT-4 Turbo</option>
+        </select>
+
+        <button id="saveSettings">Save Settings</button>
+    </div>
+
+    <div class="footer">
+        Developed by: <a href="https://www.linkedin.com/in/aviv-vinograzki" target="_blank">Aviv Vinograzki</a>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
