@@ -17,3 +17,9 @@ Introducing my new Chrome extension:
 
 ![image](https://github.com/user-attachments/assets/55105160-ea8d-44b2-b567-bbd397c28ee5)
 
+# How to install:
+
+Open the extension manager (chrome://extensions/)
+Enable the "Developer mode"
+Click on the "Load unpacked" button and select this project folder
+Have fun :)
